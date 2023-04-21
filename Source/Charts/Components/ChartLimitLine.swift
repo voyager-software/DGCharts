@@ -11,6 +11,9 @@
 
 import Foundation
 import CoreGraphics
+#if canImport(UIKit)
+    import UIKit
+#endif
 
 
 /// The limit line is an additional feature for all Line, Bar and ScatterCharts.
